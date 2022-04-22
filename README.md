@@ -16,7 +16,7 @@ Test: "All the digits of a number containing a 2, should be replaced with 'Boop!
 Code: robotify(3);
 Expected output: [0, 1 , Boop!, 3]
 
-Test: "All the digits of a number containing a 3, should be replaced with 'Won't you be my neighbor?'"
+Test: "All the digits of a number containing a , should be replaced with 'Won't you be my neighbor?'"
 Code: robotify(3);
 Expected output: [0, 1 , 2, Won't you be my neighbor?]
 

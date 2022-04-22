@@ -25,5 +25,5 @@ function robotify(number) {
     } else {
       substitutedArray.push(index);
     }
-    return substitutedArray.toString();
+    return substitutedArray
 }
