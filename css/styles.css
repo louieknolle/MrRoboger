@@ -1,7 +1,51 @@
-.container {
-  display: flex;
+body{
+  background-color: skyblue;
 }
 
-header {
+.container {
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  align-items: flex-end;
   
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+}
+
+h1 {
+  color: red;
+}
+
+.welcome {
+  margin-right: 30px;
+  background-color: #e9bf8c;
+  border: 10px solid #b37474d3;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.welcomeTitle {
+  font-size: 22px;
+  color: darkred;
+  font-weight: bold;
+}
+
+.welcomeList {
+  color: #745509;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  background-color: #f05050;
+  padding: 10px;
+  margin-bottom: 100px;
+  border: 10px solid darkred;
+  border-radius: 5px;
+
 }
