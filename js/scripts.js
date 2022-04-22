@@ -12,7 +12,7 @@ function robotify(number) {
   let userNumberArray = [];
   let substitutedArray = [];
   for (i =0; i<= number; i++) {
-    userNumberArray.push(i);
+    userNumberArray.push(i.toString());
   }
 
   for (let index of userNumberArray)

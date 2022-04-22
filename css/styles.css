@@ -22,10 +22,12 @@ h1 {
 
 .welcome {
   margin-right: 30px;
+  margin-top: 20px;
   background-color: #e9bf8c;
   border: 10px solid #b37474d3;
   padding: 10px;
   border-radius: 5%;
+  
 }
 
 .welcomeTitle {
@@ -40,14 +42,16 @@ h1 {
 
 .main {
   display: flex;
+  align-self: flex-start;
   justify-content: space-evenly;
   align-items: baseline;
   background-color: #f05050;
   padding: 10px;
   margin-bottom: 100px;
+  margin-top: 100px;
   border: 10px solid darkred;
   border-radius: 5px;
-
+  color: #410808;
 }
 
 input {
