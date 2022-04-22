@@ -49,3 +49,13 @@ h1 {
   border-radius: 5px;
 
 }
+
+input {
+  display: flex;
+  align-self: auto;
+}
+
+button {
+  display: flex;
+  align-self: auto;
+}
