@@ -12,8 +12,9 @@ body{
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: #efefef;
+  height: 60px;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h1 {
 }
 
 .main {
-  display: flex;
+  
   align-self: flex-start;
   justify-content: space-evenly;
   align-items: baseline;
@@ -54,12 +55,22 @@ h1 {
   color: #410808;
 }
 
-input {
-  display: flex;
-  align-self: auto;
+#resultContainer {
+  display: none;
+  background-color: #29c929;
+  color: #064906;
+  font-size: 18px;
+  padding: 10px 5px;
+  border: 10px solid darkgreen;
+  border-radius: 5px;
 }
 
-button {
-  display: flex;
-  align-self: auto;
+.robot {
+  height: 50px;
+  width: auto;
+}
+
+.sun {
+  height: 50px;
+  width: auto;
 }

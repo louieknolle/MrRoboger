@@ -5,10 +5,14 @@ $(document).ready(function() {
     const robotifiedRange = robotify(userInputNumber);
 
     $('#resultContainer').html(robotifiedRange);
+    $('#resultContainer').show();
   });
 });
 
 function robotify(number) {
+  if (number < 0) {
+    return 'Please enter a positive number!'
+  } else {
   let userNumberArray = [];
   let substitutedArray = [];
   for (i =0; i<= number; i++) {
@@ -17,13 +21,14 @@ function robotify(number) {
 
   for (let index of userNumberArray)
     if (index.includes(3)) {
-      substitutedArray.push("Won't you be my neighbor?");
+      substitutedArray.push(' ' + "Won't you be my neighbor?");
     } else if (index.includes(2)) {
-      substitutedArray.push("boop");
+      substitutedArray.push(' ' + "boop");
     } else if (index.includes(1)) {
-      substitutedArray.push('beep');
+      substitutedArray.push(' ' + 'beep');
     } else {
-      substitutedArray.push(index);
+      substitutedArray.push(' ' + index);
     }
     return substitutedArray.toString();
+  }
 }
