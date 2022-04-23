@@ -10,16 +10,13 @@ $(document).ready(function() {
 });
 
 function robotify(number) {
-  if (number < 0) {
-    return 'Please enter a positive number!'
-  } else {
   let userNumberArray = [];
-  let substitutedArray = [];
   for (i =0; i<= number; i++) {
     userNumberArray.push(i.toString());
   }
 
-  for (let index of userNumberArray)
+  let substitutedArray = [];
+  for (let index of userNumberArray) {
     if (index.includes(3)) {
       substitutedArray.push(' ' + "Won't you be my neighbor?");
     } else if (index.includes(2)) {
@@ -29,6 +26,6 @@ function robotify(number) {
     } else {
       substitutedArray.push(' ' + index);
     }
-    return substitutedArray.toString();
   }
+  return substitutedArray.toString();
 }
