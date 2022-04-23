@@ -9,7 +9,7 @@
 * _HTML_
 * _CSS_
 * _Bootstrap 4.5_
-*_Javascript 3.6.0_
+* _Javascript 3.6.0_
 
 
 ## Description
@@ -19,15 +19,17 @@ _Set up as a soon to be robot-themed Mr. Roger's Neighborhood, the webpage for M
 ## Setup/Installation Requirements
 
 * _Clone this repository from Github to your desktop_
+* _In your terminal run the command "git pull https://github.com/louieknolle/MrRoboger.git" from the desktop directory_
+* _With VSCode installed on your computer, you can then run "code ." into the terminal to open the files there._
+* _Download the Live Server extension if you need to, and you can select "Go Live" from the blue bar at the bottom of the VSCode application window to open and use the file in your browser._
+* _If you do not have VSCode, you can open the project folder on your Desktop._
 * _Once the directory is open, select index.html_
 * _Choose which browser you want to open it in_
-
-_[Github-Pages-Link](louieknolle.github.io/program-portfolio)_
 
 
 ## Known Bugs
 
-* _The picture on the home page is temporary, I couldn't link the Bootstrap JS correctly for the carousel of 3 different photos to work_
+* _No known bugs at this time_
 
 ## License
 
@@ -35,6 +37,8 @@ _MIT_
 
 Copyright (c) _2022_ _Louie Knolle_
 
+
+## Tests
 
 Describe robotify()
 

@@ -9,6 +9,7 @@ body{
   align-items: flex-start;
   flex-direction: column;
   padding: 0 40px;
+  width: 70%;
 }
 
 .header {
@@ -40,7 +41,7 @@ h1 {
   color: #745509;
 }
 
-.main {
+.robotCounter {
   justify-content: space-evenly;
   align-items: baseline;
   background-color: #f05050;
